@@ -18,7 +18,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" type="text/css" href="css/agency.css">
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
@@ -35,21 +35,29 @@
 <link rel="icon" type="image/gif" href="animated_favicon1.gif">
 </head>
 
-<body id="page-top">
+<body id="page-top" class="index">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+    
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top"><i>Thank You for Visiting</i></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#000000">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+
                     <li>
                         <a class="page-scroll" href="#about" style="color:#ffffff">About Me</a>
                     </li>
@@ -58,6 +66,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio" style="color:#ffffff">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Education" style="color:#ffffff">Education</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact" style="color:#ffffff">Contact</a>
@@ -198,6 +209,8 @@
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
         <div class="row">
+        <br>
+        <br>
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading"><b>PORTFOLIO</b></h2>
                     <hr class="primary">
@@ -298,13 +311,74 @@
         </div>
     </section>
 
-    
+    <section id="Education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Education</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/coem.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2008 - 2012</h4>
+                                    <h4 class="subheading">Bachelors of Engineering in Computer Engineering, Pune, India</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Bachelors program majoring in Computer Engineering from College of Engineering Hadapsar Pune.</p>
+                                    <p class="text-muted">GPA - 3.2</p>
+                                    <p class="text-muted">Classes I took: </p>
+                                    <p class="text-muted">Software Engineering</p>   
+                                    <p class="text-muted">Operating System</p>
+                                    <p class="text-muted">Object Oriented Modeling and Design</p>
+                                    <p class="text-muted">Data Stucture and Algorithm</p>
+                                    <p class="text-muted">Database Management System</p>
+                                    <p class="text-muted">RDBMS and Visual Programming</p>
+                                    <p class="text-muted">Advanced Database</p>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2006 - 2008</h4>
+                                    <h4 class="subheading">Junior College, Pune, India</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">R.R. Shinde Junior College hadapsar, pune</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Journey
+                                    <br>Of my
+                                    <br>Education!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact">
         <div class="container">
             <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2><b>Shoot Me a Message</b></h2>
+            <div class="col-lg-12 text-center" style="font-color:#fff">
+                <h1><b>Shoot Me a Message</b></h1>
                 <hr class="primary">
                 <h3 class="section-subheading text-muted" style:color="white"> Email: sharpale7711@gmail.com || Phone: +91 9922137711</h3>
                 <br>
@@ -352,7 +426,7 @@
     <footer style="align:center;">
         <div class="container" style="align:center">
             <div class="row" style="align:center">
-            <div class="col-md-4" style="align:center">
+            <div class="col-md-1" style="align:center">
                 
             </div>
             
